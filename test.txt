@@ -45,3 +45,10 @@ Execute = 1
 
 An example of a file where the user can read, a group can write and others can read and execute would be
 chmod 435 file3
+
+
+## What does Usermod command do???
+
+
+
+The usermod command in Linux is used to modify user account properties and attributes. It allows you to change various settings associated with a user account without the need to delete and recreate the user. usermod is a powerful and versatile command that can be used to modify a wide range of user-related information.
