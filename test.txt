@@ -1,3 +1,4 @@
+
 # Changing permissions for the Documnent / Folder owner i.e group
 
 
@@ -45,3 +46,7 @@ Execute = 1
 
 An example of a file where the user can read, a group can write and others can read and execute would be
 chmod 435 file3
+
+"Others" refers to the group of users on a system who are not the owner of a file or mombers of a group.
+This corresponds to the third set of permission when performing an "ls -l" command on a file.
+To change the permissions for this group, one can do the command "sudo chmod o+*", where * can be x, w, r for execute, write or read permissions.
