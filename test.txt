@@ -1,0 +1,23 @@
+The 'user' is the first code specified in the permissions section of a file.
+This is done with the 'chmod' command. You then specifiy which user (or users) you 
+are changing the permissions for. In the case of chaning is for the user, the flag is u.
+You can do this in two different formats. 
+
+The first is in this format; 
+
+chmod u=rwx,g=r,o-rwx file2.
+
+Where r=read, w=write, x=execute.
+= grant level
+- remove level
++ add level
+
+Alternatively, you can sum the octal values, where:
+Read = 4
+Write = 2
+Execute = 1
+
+An example of a file where the user can read, a group can write and others can read and execute would be
+chmod 435 file3
+
+
