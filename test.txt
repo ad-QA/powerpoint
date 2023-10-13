@@ -1,0 +1,24 @@
+# Changing permissions for the Documnent / Folder owner i.e group
+
+
+chmod permissions "filename"
+
+Where,
+
+permissions can be read, write, execute or a combination of them.
+filename is the name of the file for which the permissions need to change. This parameter can also be a list if files to change permissions in bulk.
+
+For Example, to give the group write permissions in this file (test.txt), you would do:
+
+		chmod g+w test.txt
+
+
+	where g = group
+	where + = add permissions
+	where w = write permission
+
+Thank you
+
+References :
+1- https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/
+2 - https://linuxize.com/post/chgrp-command-in-linux/?utm_content=cmp-true
